@@ -1,0 +1,59 @@
+body {
+  background-color: #FFCAD4;
+  font-family: "Space Mono";
+  padding: 16px;
+  height: 100vh;
+  width: 100%;
+  color: #070F2B;
+}
+
+h1 {
+  color: #1B3C73;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35vh;
+}
+
+.pattern {
+  margin-right: 12px;
+  font-weight: 500;
+}
+
+input {
+  border: 1px solid #1B3C73;
+  border-radius: 6px;
+  padding: 8px 8px;
+  outline: none;
+}
+
+button {
+  margin-left: 12px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: #1B3C73;
+  color: #F6F5F5;
+}
+
+.result-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: baseline;
+}
+
+.total {
+  margin-right: 12px;
+}
+
+.result {
+  color: #37B5B6;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+}
