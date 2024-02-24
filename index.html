@@ -11,20 +11,28 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Crochet Counter</title>
+    <link rel="shortcut icon" href="./assets/icon.svg" type="image/x-icon" />
   </head>
   <body>
     <h1>Crochet Counter</h1>
-    <div class="container">
-      <form>
-        <label class="pattern">Pattern:</label>
-        <input type="text" required />
-        <button>Count</button>
-      </form>
-      <div class="result-container">
-        <label class="total">Total:</label>
-        <p class="result"></p>
+    <section class="card">
+      <div class="container">
+        <form>
+          <h2 class="pattern">Pattern:</h2>
+          <textarea type="text" required rows="8" cols="50"></textarea>
+          <div class="actions">
+            <div class="btn-container">
+              <button class="reset-btn" type="reset">Clear</button>
+              <button class="submit-btn">Count</button>
+            </div>
+          </div>
+        </form>
+        <div class="result-container">
+          <label class="total">Total:</label>
+          <p class="result">0</p>
+        </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>

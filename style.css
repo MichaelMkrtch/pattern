@@ -1,50 +1,82 @@
 body {
-  background-color: #FFCAD4;
-  font-family: "Space Mono";
-  padding: 16px;
-  height: 100vh;
+  background-color: #ffcad4;
+  color: #070f2b;
+  font-family: 'Space Mono';
+  margin: 0;
+  padding: 16px 32px;
   width: 100%;
-  color: #070F2B;
+  overflow: hidden;
 }
 
 h1 {
-  color: #1B3C73;
+  color: #1b3c73;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  height: 80vh;
+  margin: auto;
+  justify-content: center;
 }
 
 .container {
+  align-items: center;
+  background-color: #ffebee;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin-top: 35vh;
+  margin: auto;
+  padding: 24px 60px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .pattern {
-  margin-right: 12px;
+  font-size: 22px;
   font-weight: 500;
+  margin: 20px 0;
 }
 
-input {
-  border: 1px solid #1B3C73;
+textarea {
+  border: 1px solid #1b3c73;
   border-radius: 6px;
-  padding: 8px 8px;
   outline: none;
+  padding: 8px 8px;
+  resize: none;
+}
+
+.actions {
+  margin-top: 30px;
+}
+
+.btn-container {
+  float: right;
 }
 
 button {
-  margin-left: 12px;
   border: none;
-  padding: 8px 16px;
   border-radius: 6px;
-  background-color: #1B3C73;
-  color: #F6F5F5;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.reset-btn {
+  background: #fdf2f8;
+  border: 1px solid #3b4e91;
+}
+
+.submit-btn {
+  background-color: #3b4e91;
+  color: #f6f5f5;
 }
 
 .result-container {
-  margin-top: 30px;
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 30px;
   vertical-align: baseline;
 }
 
@@ -53,7 +85,20 @@ button {
 }
 
 .result {
-  color: #37B5B6;
+  color: #37b5b6;
   font-weight: 600;
   letter-spacing: 1.25px;
+  margin: 0;
+}
+
+.active\:scale-\[0\.995\]:active {
+  --tw-scale-x: 0.995;
+  --tw-scale-y: 0.995;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.active\:shadow-\[0_0px_1px_rgba\(0\2c 0\2c 0\2c 0\.5\)\]:active {
+  --tw-shadow: 0 0px 1px rgba(0,0,0,0.5);
+  --tw-shadow-colored: 0 0px 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
