@@ -90,15 +90,3 @@ button {
   letter-spacing: 1.25px;
   margin: 0;
 }
-
-.active\:scale-\[0\.995\]:active {
-  --tw-scale-x: 0.995;
-  --tw-scale-y: 0.995;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.active\:shadow-\[0_0px_1px_rgba\(0\2c 0\2c 0\2c 0\.5\)\]:active {
-  --tw-shadow: 0 0px 1px rgba(0,0,0,0.5);
-  --tw-shadow-colored: 0 0px 1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
